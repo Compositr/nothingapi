@@ -1,8 +1,12 @@
 {
   "name": "nothingapi",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A JS wrapper for the Nothing API",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "github:Compositr/nothingapi"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
