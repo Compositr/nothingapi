@@ -5,7 +5,7 @@ JavaScript Wrapper for the [Nothing API](https://nothingapi.crypticcode.org/docs
 - NodeJS **17.5.0** or higher
 
 # Features
-- ⬇️ Tiny: Only 24 TypeScript lines (Less than 4kb unzipped)
+- ⬇️ Tiny: Only 24 TypeScript lines (Less than 8kb unzipped)
 - 📦 Dependency Free: Using only `fetch()`, which is built into NodeJS (since v17.5)
 - 🎖️ Free License: MIT licensed
 
