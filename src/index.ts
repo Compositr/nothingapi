@@ -10,14 +10,19 @@ export default async function getUser(userId: string) {
     `https://nothingapi.crypticcode.org/users/${userId}`,
     {
       headers: {
-        "User-Agent": "nothingapi.js/0.0.3",
+        "User-Agent": "nothingapi.js/0.0.4",
         Accept: "application/json",
       },
     }
-  ).then((res) => res.json());
+  ).then((res) => (res.ok ? res.json() : res));
 
-  return {
-    userId: results.userId,
-    balance: results.balance,
-  };
+  if ("userId" in results)
+    return {
+      userId: results.userId,
+      balance: results.balance,
+    };
+
+  throw new Error(
+    `Failed to fetch user: API responded with status code ${results.statusCode}`
+  );
 }
