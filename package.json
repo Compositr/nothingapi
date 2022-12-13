@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "keywords": [
     "nothing",
@@ -16,5 +17,7 @@
   "devDependencies": {
     "typescript": "^4.9.4"
   },
-  "files": ["./lib/**/*"]
+  "files": [
+    "./lib/**/*"
+  ]
 }
