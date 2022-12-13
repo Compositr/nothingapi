@@ -1,0 +1,20 @@
+{
+  "name": "nothingapi",
+  "version": "0.0.1",
+  "description": "A JS wrapped for the Nothing API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "nothing",
+    "nothingapi"
+  ],
+  "author": "Compositr",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "files": ["./lib/**/*"]
+}
