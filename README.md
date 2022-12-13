@@ -31,10 +31,10 @@ import getNothingUser from "nothingapi"
 
 ## CJS:
 ```js
-const getNothingUser = require("nothingapi")
+const nothingapi = require("nothingapi")
 
 (async () => {
-  const user = await getNothingUser("863298292804485141")
+  const user = await nothingapi.default("863298292804485141")
   console.log(user)
   /**
    * Object:
