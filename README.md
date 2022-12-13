@@ -16,7 +16,7 @@ This library only exports a single function as a default: `getUser`. You may nam
 ```js
 import getNothingUser from "nothingapi"
 
-(async () => {
+;(async () => {
   const user = await getNothingUser("863298292804485141")
   console.log(user)
   /**
@@ -33,7 +33,7 @@ import getNothingUser from "nothingapi"
 ```js
 const nothingapi = require("nothingapi")
 
-(async () => {
+;(async () => {
   const user = await nothingapi.default("863298292804485141")
   console.log(user)
   /**
