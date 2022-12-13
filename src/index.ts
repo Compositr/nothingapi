@@ -10,7 +10,7 @@ export default async function getUser(userId: string) {
     `https://nothingapi.crypticcode.org/users/${userId}`,
     {
       headers: {
-        "User-Agent": "nothingapi.js/0.0.4",
+        "User-Agent": "nothingapi.js/0.0.5",
         Accept: "application/json",
       },
     }
