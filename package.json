@@ -2,7 +2,7 @@
   "name": "nothingapi",
   "version": "0.0.3",
   "description": "A JS wrapped for the Nothing API",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
