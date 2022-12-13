@@ -1,7 +1,7 @@
 {
   "name": "nothingapi",
-  "version": "0.0.3",
-  "description": "A JS wrapped for the Nothing API",
+  "version": "0.0.4",
+  "description": "A JS wrapper for the Nothing API",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
