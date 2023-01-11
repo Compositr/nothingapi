@@ -1,4 +1,4 @@
-export const userIdRegex = /^\d{10,}$/g;
+const userIdRegex = /^\d{15,}$/g;
 
 export default async function getUser(userId: string) {
   if (!userIdRegex.test(userId))
